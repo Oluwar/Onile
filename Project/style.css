@@ -1,0 +1,126 @@
+img{
+    size: cover;
+    height: 100%;
+    width: 100%;
+}
+.spinner-border{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 50%;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+/* Clearfix (clear floats) */
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+i{
+    float: right;
+    padding: 15px 23px;
+    font-size: 30px;
+    margin-top: 2%;
+    background-color: #35AE17;
+    width: 1%;
+    padding-right: 3%;
+    color: white;
+  }
+
+  .line{
+    width: 1335px;
+    height: 1px;
+    background-color: black;
+    margin: 16px;
+    margin-left: 5%;
+  }
+  .line-on{
+    width: 115px;
+    height: 1px;
+    background-color: black;
+    margin: 16px;
+    margin-left: 5%;
+  }
+
+
+
+  .container{
+    width: 700px;
+    margin: 40px auto;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+input{
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: solid 2px grey;
+    box-shadow: 1px 3px 1px grey;
+}
+a{
+    color: #35AE17;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+}
+.checkbox{
+    width: 15px;
+    box-shadow: none;
+}
+button{
+    padding: 10px 120px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.click{
+    margin: 8px auto;
+    text-align: center;
+}
+#grad1{
+    background-image: linear-gradient(180deg, #35AE17 0%, #FFFFFF 100%);
+    position: absolute;
+    width: 163px;
+    height: 754px;
+    left: 1277px;
+    top: 0px;
+    margin-left: 3%;
+}
+
+#grad2{
+    position: absolute;
+width: 151px;
+height: 824px;
+left: 0px;
+top: 0px;
+background: #35AE17;
+}
+#grad3{
+    position: absolute;
+    width: 1389px;
+    height: 73px;
+    left: 151px;
+    top: -11px;
+    
+    background: #35AE17;
+}
+#grad4{
+    position: absolute;
+width: 221px;
+height: 824px;
+left: 0px;
+top: 0px;
+background: #35AE17;
+}
